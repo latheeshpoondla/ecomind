@@ -1,6 +1,6 @@
 # EcoMind: AI Powered Environmental Health Monitoring System  
 
-![EcoMind]()
+![EcoMind](https://github.com/latheeshpoondla/ecomind/blob/main/images/ecomind_header_cut.png?raw=true)
 
 ## Dev Instructions  
 
