@@ -9,8 +9,10 @@
 Step 0:  
 You may activate your conda env if you prefer.  
 
-* ```conda create -n ecomind python=3.10```  
+* ```conda create -n ecomind python=3.11.9```  
 * ```conda activate ecomind```  
+* ```conda config --add channels conda-forge```
+* ```conda config --set channel_priority strict```
 
 Step 1 (run these cmds **in you project directory**):
 
@@ -32,7 +34,7 @@ Now we are good to go.
 
 >**Note:**  
 >
->* poetry checks for python version match (current ecomind uses python 3.10.19 or >=3.9). You can check in pyproject.toml  
+>* poetry checks for python version match (current ecomind uses python 3.11.9 or >=3.11). You can check in pyproject.toml  
 >* If fails poetry automatically changes python path or shows error.
 
 ---
